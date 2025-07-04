@@ -1,0 +1,178 @@
+body { 
+    background-image: url(img/cg/cg1.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav {
+    background-color: #f8f0bd;
+    border-bottom: 5px solid #faf3ea;
+    border-radius: 10px;
+    font-family: consolas, helvetica, sans-serif;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+#tc { 
+    color: #5c4252;
+}
+h2, details {
+    font-family: consolas, helvetica, sans-serif;
+    color: #5c4252;
+}
+p {
+    font-family: consolas, helvetica, sans-serif;
+    color: #5c4252;
+    font-size: 16pt;
+    line-height: 1,5;
+    display: inline-block;
+}
+#pch {
+    background-color: #faf3ea;
+    display: inline-block;
+    font-family: consolas, helvetica, sans-serif;
+    font-size: 140%;
+    font-weight: bold;
+}
+summary {
+    list-style: none;
+}
+#imagein {
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+#downt {
+    font-size: 12pt;
+    font-family: helvetica, sans-serif;
+    color: gray;
+}
+#chara {
+    width: 30%;
+    object-fit: scale-down;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+#npb {
+    background-image: url(img/bgb.png);
+    background-size: cover;
+    display: inline;
+    font-family: inherit;
+    font-size: 140%;
+    width: 60%;
+    block-size: max-content;
+}
+#np {
+    font-family: inherit;
+    font-size: 120%;
+    width: 60%;
+    margin-bottom: 2%;
+}
+#mem {
+    width: 15%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+#mem:hover {
+    transform: scale(2);
+}
+#fl {
+    display: flex;
+    flex-flow: row wrap;
+}
+#alifinav {
+    width: 7%; 
+    align-items: left;
+}
+@media (max-width: 1000px) {
+    #fl {
+      flex-direction: column; 
+    }
+    
+    #chara {
+      width: 90%; 
+    }
+    #tc {
+        font-size: 55%;
+    }
+    #imagein {
+        flex-direction: column;
+        width: 70%;
+    }
+    #alifinav {
+        width: 15%;
+    }
+}
+#yon {
+    max-width: 20%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+#yon1 {
+    max-width: 30%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+#yon2 {
+    max-width: 15%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+#cg {
+    max-width: 25%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+@media (max-width: 1000px) {
+    #yon:hover{
+        transform: scale(2.5);
+    }
+    #yon1:hover{
+        transform: scale(2.5);
+    }
+    #yon2:hover{
+        transform: scale(2.5);
+    }
+    #cg:hover{
+        transform: scale(2.5);
+    }
+}
+#mess {
+    background-color: rgba(150, 197, 255, 0.363);
+    display: inline-block;
+}
+#mess h2{
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+hr {
+    color: white;
+}
+#mess p{
+    margin-left: 10%;
+    margin-top:0;
+    background: linear-gradient(to bottom right, rgb(185, 228, 255), 5%, white);
+    display: inline-block;
+    text-align: center;
+    font-family: system-ui;
+    line-height: 1,5;
+}
+
+@media (max-width: 1000px) {
+    #mess p{
+        margin-left: 0;
+    }
+}
