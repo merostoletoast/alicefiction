@@ -22,6 +22,12 @@ nav {
 #tc { 
     color: #5c4252;
 }
+h1 {
+    font-family: consolas, helvetica, sans-serif;
+    color: #5c4252;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
 h2, details {
     font-family: consolas, helvetica, sans-serif;
     color: #5c4252;
